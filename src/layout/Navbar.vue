@@ -8,7 +8,7 @@
       <router-link to="/" exact-active-class="active">Home</router-link>
 <router-link to="/about" exact-active-class="active">About</router-link>
 <router-link to="/projects" exact-active-class="active">Projects</router-link>
-<router-link to="/setup" exact-active-class="active">Setup</router-link>
+<!-- <router-link to="/setup" exact-active-class="active">Setup</router-link> -->
 <router-link to="/contact" exact-active-class="active">Contact</router-link>
 
 
@@ -18,7 +18,7 @@
         <li class="hover:bg-black hover:text-white">About</li>
         <li class="hover:bg-black hover:text-white">Contact</li>
       </ul> -->
-      <input type="search" placeholder="Search in Site" class="p-1 h-7 border rounded-sm">
+      <input type="search" placeholder="Search in Site" class="p-1 h-7 border border-gray-300 rounded-sm">
     </div>
 
     <div class="sm:visible extra-buttons flex gap-10 h-5">

@@ -6,7 +6,7 @@ import MainLayout from '@/layout/index.vue'
 
 <template >
 
- <main class=" h-screen w-screen bg-transparent">
+ <main class="m-0 p-0 h-screen w-screen bg-transparent">
          <MainLayout class="font-poppins" />
        
  </main>

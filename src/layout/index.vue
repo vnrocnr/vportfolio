@@ -1,5 +1,5 @@
 <template>
-    <Navbar class=""/>
+    <Navbar class="sticky"/>
 
     <main class="">
         <div >

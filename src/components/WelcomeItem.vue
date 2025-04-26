@@ -99,9 +99,14 @@
   </div>
 
 <div class="proj  rounded-md border border-gray-300   drop-shadow-md p-2  bg-white col-span-4 row-span-2 col-start-1 row-start-5">
-    <div class="header flex gap-2 items-center">
+    <div class="header w-full flex justify-between">
+        
+      <div class="left flex gap-2 items-center">
         <img :src="laptop" alt="" class="h-4 mix-blend-multiply opacity-70">
          <h3 class="text-[18px] font-bold">Projects</h3>
+
+      </div>
+         <router-link to="/projects" class="right-0 ">View More</router-link>
       </div>
     
     <div class="containers h-[250px] grid overflow-y-scroll md:grid-cols-2 gap-5">
@@ -128,6 +133,10 @@
       <img :src="pc" alt="" class="h-4 mix-blend-multiply opacity-70">
       <h3 class="text-[18px] ">Setup</h3>
     </div>
+    <div class="con h-[160px] w-full | flex items-center justify-center">
+       <p class="font-lavyours text-5xl">Soon...</p>
+    </div>
+   
   
   </div>
 
