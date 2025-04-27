@@ -18,7 +18,7 @@
         <li class="hover:bg-black hover:text-white">About</li>
         <li class="hover:bg-black hover:text-white">Contact</li>
       </ul> -->
-      <input type="search" placeholder="Search in Site" class="p-1 h-7 border border-gray-300 rounded-sm">
+      <!-- <input type="search" placeholder="Search in Site" class="p-1 h-7 border border-gray-300 rounded-sm"> -->
     </div>
 
     <div class="sm:visible extra-buttons flex gap-10 h-5">

@@ -16,7 +16,7 @@
     </div>
 
     <div class="proj-container flex flex-col gap-10">
-      <div class="proj1 shadow-md rounded-md flex flex-col md:items-center gap-10 md:flex-row justify-between p-3">
+      <div class="proj1 shadow-md rounded-md flex flex-col md:items-center gap-10 md:flex-col lg:flex-row justify-between p-3">
         <img :src="artboard" alt="" class="md:h-[250px] lg:h-[310px]" />
 
         <div class="right flex flex-col flex-wrap gap-4">
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="proj2  shadow-md rounded-md flex flex-col gap-10 md:items-center  md:flex-row justify-between p-3">
+      <div class="proj2  shadow-md rounded-md flex flex-col gap-10 md:items-center   md:flex-col lg:flex-row justify-between p-3">
         <img :src="asset" alt="" class="md:h-[250px] lg:h-[310px]" />
 
         <div class="right flex flex-col  flex-wrap gap-4">
@@ -56,21 +56,21 @@
           <div class="tech  h-[110px]">
                <p class="font-semibold">Tech Stack</p>
           <div class="con flex flex-wrap w-full h-[40px] gap-3">
-            <p class="bg-gray-200 p-2 rounded-lg text-[12px]">Admin LTE Bootstrap</p>
-            <p class="bg-gray-200 p-2 rounded-lg text-[12px]">PHP</p>
-            <p class="bg-gray-200 p-2 rounded-lg text-[12px]">MySQL</p>
-            <p class="bg-gray-200 p-2 rounded-lg text-[12px]">CSS</p>
-            <p class="bg-gray-200 p-2 rounded-lg text-[12px]">Github</p>
+            <p class="bg-gray-200 p-2 rounded-lg ">Admin LTE Bootstrap</p>
+            <p class="bg-gray-200 p-2 rounded-lg ">PHP</p>
+            <p class="bg-gray-200 p-2 rounded-lg ">MySQL</p>
+            <p class="bg-gray-200 p-2 rounded-lg ">CSS</p>
+            <p class="bg-gray-200 p-2 rounded-lg ">Github</p>
           </div>
           </div>
        
         </div>
       </div>
 
-      <div class="proj3  shadow-md rounded-md flex flex-col items-center gap-10 md:items-center  md:flex-row justify-between p-3">
+      <div class="proj3  shadow-md rounded-md flex flex-col items-center gap-10 md:items-center   md:flex-col lg:flex-row justify-between p-3">
         <img :src="caps" alt="" class="md:h-[250px] lg:h-[560px]" />
 
-        <div class="right flex flex-col  flex-wrap gap-4">
+        <div class="right flex flex-col pl-10  flex-wrap gap-4">
           <p class="font-semibold text-3xl">Application of Cloud Storage to Barangay Information System</p>
 
           <p class="desc max-w-[500px]">

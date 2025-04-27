@@ -1,5 +1,5 @@
 <template>
- <div class="flex flex-col w-screen md:w-screen px-10 md:px-[100px] lg:px-[400px] my-[20px] md:grid grid-cols-6 grid-rows-4 gap-2 ">
+ <div class="flex flex-col w-screen md:w-screen px-10 md:px-[100px] lg:px-[400px] my-[20px] lg:grid grid-cols-6 grid-rows-4 gap-2 ">
 
   <div class="exp flex flex-col gap-5 p-3 rounded-xl border border-gray-300 drop-shadow-md bg-white col-span-4 row-span-4  md:h-[500px] " >
  
@@ -11,7 +11,7 @@
       <h3 class="text-[18px] font-semibold">Experience</h3>
     </div>
      
-        <div class="containers flex flex-col gap-5 md:gap-10 md:p-10">
+        <div class="containers overflow-hidden md:overflow-scroll flex flex-col gap-5 md:gap-10 md:p-5 lg:p-10">
             <div class="container flex " v-for="tl in timelineElements" :key="tl.id">
               <img :src="tl.icon" alt="">
               
@@ -41,11 +41,11 @@
       <h3 class="text-[18px] font-semibold ">Tech Stack</h3>
     </div>
 
-    <div class="containers flex flex-col gap-5 mt-10">
-        <div class="container">
+    <div class="containers flex flex-col flex-wrap gap-2 ">
+      <div class="container">
         <p class="text-md font-medium">Frontend</p>
 
-        <div class="sub-con flex w-full h-[20px]   gap-2">
+        <div class="sub-con flex w-full h-[20px]  flex-wrap  gap-2">
           <div class="text-[12px] w-[70px] border border-gray-300 text-center rounded-md">VueJS</div>
           <div class="text-[12px] w-[70px] border border-gray-300 text-center rounded-md">JS</div>
           <div class="text-[12px] w-[70px] border border-gray-300 text-center rounded-md">HTML</div>
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container pt-7 md:pt-12 lg:pt-7 ">
         <p class="text-md font-medium">Backend</p>
 
         <div class="sub-con flex gap-2">
@@ -106,10 +106,10 @@
          <h3 class="text-[18px] font-bold">Projects</h3>
 
       </div>
-         <router-link to="/projects" class="right-0 ">View More</router-link>
+         <router-link to="/projects" class="right-0 ">View >></router-link>
       </div>
     
-    <div class="containers h-[250px] grid overflow-y-scroll md:grid-cols-2 gap-5">
+    <div class="containers h-[250px] grid overflow-y-scroll md:overflow-hidden md:overflow-y-scroll lg:grid-cols-2 gap-5 md:p-5">
           <div class="container1 opacity-50 hover:opacity-100 hover:cursor-pointer border p-2 border-gray-300 rounded-md h-[70px] w-[300px]">
               <p class="font-medium"> Entertainment App</p>
               <p class="desc text-[12px] ml-20">A responsive entertainment web application </p>
@@ -120,7 +120,7 @@
               <p class="desc text-[12px] ml-20">A centralized IT asset management system for Zenith</p>
           </div>
 
-          <div class="container1  opacity-50 hover:opacity-100 hover:cursor-pointer border p-2 border-gray-300 rounded-md h-[120px] w-[300px] md:w-[500px]">
+          <div class="container1  opacity-50 hover:opacity-100 hover:cursor-pointer border p-2 border-gray-300 rounded-md h-[120px] w-[300px]  lg:w-[500px]">
               <p class="font-medium"> Application of Cloud Storage to Barangay Information System</p>
               <p class="desc text-[12px] ml-20">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, molestias vero inventore quo, tenetur </p>
           </div>
@@ -150,14 +150,14 @@
 
       <div class="email bg-gray-100 p-2 rounded-md">
         <p class="text-sm">Email</p>
-        <p class="font-semibold">venarocenar73@gmail.com</p>
+        <p class="font-semibold text-[20px] md:text-[10px] lg:text-[20px]">venarocenar73@gmail.com</p>
       </div>
 
       <div class="socials">
         <p>Social Links</p>
         <div class="containers flex gap-5">
 
-          <ul class="flex gap-3">
+          <ul class="flex gap-3 md:flex-wrap">
             <li class="cont1 h-15 w-15 bg-gray-100 p-2 rounded-md">
               
               <a href="https://github.com/vnrocnr">

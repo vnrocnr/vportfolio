@@ -19,7 +19,7 @@
                 </div>
 
 
-                <div class="sub2 h-[110px] p-5 border border-gray-300  md:rounded-tr-md md:rounded-br-md lg:rounded-tr-md lg:rounded-br-md ">
+                <div class="sub2 h-[120px] md:h-[110px] p-5 border border-gray-300  md:rounded-tr-md md:rounded-br-md lg:rounded-tr-md lg:rounded-br-md ">
                     <div class="header flex gap-3">
                         <img :src="threed" alt="" class="text-red ">
                         <p class="font-medium">3d Modelling</p>

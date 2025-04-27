@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:px-100 lg:h-[800px]">
+    <div class=" px-10 lg:px-100 lg:h-[800px]">
         <div class="relative h-full w-full ">
             <div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div>
         
@@ -7,8 +7,8 @@
             <div class="inside flex flex-col gap-5">
                  <h1 class="text-4xl font-bold">Let's get in touch</h1>
                  <p>Don't hesitate to talk with me...</p>
-        <div class="w-full">
-            <div class="sub-con border-t border-gray-200 mt-2 flex lg:gap-10 sm:flex-col md:flex-col lg:flex-row sm:text-center justify-between items-center rounded-2xl p-3 md:p-20 border-gray-300">
+      
+            <div class="sub-con border-t  mt-2 flex lg:gap-10 flex-col md:flex-col lg:flex-row sm:text-center justify-between items-center rounded-2xl p-3 md:p-20 border-gray-300">
              
             
              <div class="left flex flex-col gap-5 text-center">
@@ -33,7 +33,7 @@
                      <input type="submit" placeholder="Send Message" class="border bg-black text-white w-[200px] h-[50px] hover:cursor-pointer ">
                  </form>
              </div>
-         </div>
+ 
         </div>
             </div>
         
