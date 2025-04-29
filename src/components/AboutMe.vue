@@ -1,8 +1,20 @@
 <template>
   
-  <div class="flex y-[20px]  items-center justify-center gap-10 h-[206px] ">
+  <div class="flex y-[20px]  items-center justify-center gap-10 h-[206px] dark:text-white dark:bg-black ">
     
-    <button class="p-3 w-[220px] rounded-2xl bg-[url('@/assets/gradient.png')] bg-no-repeat bg-cover">About Me</button>
+    <router-link to="/projects" class=" relative border-1 flex text-center items-center group gap-3 rounded-4xl p-2 px-10 dark:text-white dark:bg-black bg-white text-black  hover:text-white hover:cursor-pointer transition-all delay-150 ease-in-out">
+      View Projects
+
+      <span class="absolute group flex items-center justify-center h-3 w-3  top-3 left-5 border  rounded-full dark:bg-white bg-black group-hover:h-full group-hover:w-full group-hover:rounded-4xl group-hover:left-0 group-hover:top-0 transition-all delay-200 ease-in-out">
+
+</span>
+ <span class="absolute opacity-0 transition-all delay-200 group-hover:opacity-100 text-center text-white dark:text-black scale-50 group-hover:scale-100">View Projects </span>
+ <span class="absolute opacity-0 transition-all delay-200 group-hover:opacity-100 right-5 dark:text-black">></span>
+    </router-link>
+    
+    
+   
+    <!-- <button class="p-3 w-[220px] rounded-2xl bg-black text-white">View Projects</button> -->
     <!-- <img :src="MyFace" alt="my grad pic" class="h-30 rounded-[50%]" />
 
     <div class="description flex flex-col gap-3">

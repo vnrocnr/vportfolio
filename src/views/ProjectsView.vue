@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-[400px] md:w-screen px-4 md:px-30 lg:px-100 pt-10 flex flex-col gap-10">
+  <div class="h-full w-full dark:text-white dark:bg-black md:w-screen px-10 md:px-30 lg:px-100 pt-10 flex flex-col gap-10">
     
     
     
@@ -31,7 +31,7 @@
 
           <div class="tech">
                <p class="font-semibold">Tech Stack</p>
-          <div class="con flex flex-wrap  gap-3">
+          <div class="con flex flex-wrap dark:text-black  gap-3">
             <p class="bg-gray-200 p-2 rounded-lg">Vue.js</p>
             <p class="bg-gray-200 p-2 rounded-lg">Tailwind.css</p>
             <p class="bg-gray-200 p-2 rounded-lg">Pinia</p>
@@ -55,7 +55,7 @@
 
           <div class="tech  h-[110px]">
                <p class="font-semibold">Tech Stack</p>
-          <div class="con flex flex-wrap w-full h-[40px] gap-3">
+          <div class="con flex flex-wrap w-full h-[40px] gap-3 dark:text-black">
             <p class="bg-gray-200 p-2 rounded-lg ">Admin LTE Bootstrap</p>
             <p class="bg-gray-200 p-2 rounded-lg ">PHP</p>
             <p class="bg-gray-200 p-2 rounded-lg ">MySQL</p>
@@ -70,7 +70,7 @@
       <div class="proj3  shadow-md rounded-md flex flex-col items-center gap-10 md:items-center   md:flex-col lg:flex-row justify-between p-3">
         <img :src="caps" alt="" class="md:h-[250px] lg:h-[560px]" />
 
-        <div class="right flex flex-col pl-10  flex-wrap gap-4">
+        <div class="right flex flex-col md:pl-10  flex-wrap gap-4">
           <p class="font-semibold text-3xl">Application of Cloud Storage to Barangay Information System</p>
 
           <p class="desc max-w-[500px]">
@@ -79,7 +79,7 @@
 
           <div class="tech">
                <p class="font-semibold">Tech Stack</p>
-          <div class="con flex flex-wrap  gap-3">
+          <div class="con flex flex-wrap  gap-3 dark:text-black">
             <p class="bg-gray-200 p-2 rounded-lg">HTML</p>
             <p class="bg-gray-200 p-2 rounded-lg">MongoDB</p>
             <p class="bg-gray-200 p-2 rounded-lg">MySQL</p>

@@ -4,7 +4,17 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-lavyours: "Lavishly Yours", cursive;
+
+  --animate-autoRun: runn 10s linear infinite;
+
 }
+
+:root .dark-theme, body.dark-theme{
+  --background-color-primary: #1e1e1e;
+  background: #000;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 #app {
   max-width: 1280px;

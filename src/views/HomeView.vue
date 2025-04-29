@@ -11,9 +11,9 @@ import Contact from '@/components/Contact.vue';
 </script>
 
 <template>
-  <main ref="main" class="bg-transparent m-[80px] overflow-hidden">
+  <main ref="main" class="bg-transparent  overflow-hidden">
     <div class="pad-containers justify-center">
-      <TheWelcome class="a " />
+      <TheWelcome class="a overflow-hidden" />
       <WelcomeItem class="b" />
     </div>
     <AboutMe  />

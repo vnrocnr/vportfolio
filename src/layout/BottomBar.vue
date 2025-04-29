@@ -1,5 +1,5 @@
 <template>
-    <main class="flex h-[36px] border-t border-gray-200 px-10 lg:px-[400px] justify-center items-center w-[330px] md:w-screen">
+    <main class="flex h-[36px] border-t dark:bg-black border-gray-200 px-10  justify-center items-center w-screen md:w-full">
         <div class="container1 col-span-1 flex flex-col gap-2">
            
            
