@@ -51,10 +51,6 @@
 </template>
 
 <script setup>
-import MyFace from '@/assets/myface.jfif'
-import linkedln from '@/assets/ion_social-linkedin.svg'
-import facebook from '@/assets/ic_baseline-facebook.svg'
-import github from '@/assets/Vector.svg'
-import gradient from '@/assets/gradient.png'
+
 
 </script>

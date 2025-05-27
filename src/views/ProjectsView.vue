@@ -95,9 +95,7 @@
 </template>
 
 <script setup lang="ts">
-import pc from '@/assets/pc.png'
-import cp from '@/assets/cp.png'
-import tab from '@/assets/tab.png'
+
 import artboard from '@/assets/Artboard.png'
 import asset from '@/assets/Asset.png'
 import caps from '@/assets/capstone.png'
