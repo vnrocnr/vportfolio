@@ -6,7 +6,7 @@
     >
       <img
         :src="Dark ? logowh : Logo"
-        alt=""
+        alt="venar ocenar logo"
         class="h-[55px] w-[55px] md:h-[89px] md:w-[89px] lg:h-[115px] lg:w-[115px]"
       />
 
