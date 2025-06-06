@@ -102,7 +102,7 @@
       <div class="header w-full flex justify-between">
           
         <div class="left flex gap-2 items-center">
-          <img :src="laptop" alt="" class="h-4 mix-blend-multiply opacity-70">
+          <img :src="laptop" alt="icon for venar's projects" class="h-4 mix-blend-multiply opacity-70">
            <h3 class="text-[18px] font-bold">Projects</h3>
   
         </div>
@@ -130,7 +130,7 @@
   
     <div class="setup rounded-md border border-gray-300  drop-shadow-md p-2  bg-white col-span-3 row-span-2 col-start-5 row-start-3 h-[250px]">
       <div class="header flex gap-2 items-center">
-        <img :src="pc" alt="" class="h-4 mix-blend-multiply opacity-70">
+        <img :src="pc" alt="venar's pc image" class="h-4 mix-blend-multiply opacity-70">
         <h3 class="text-[18px] ">Setup</h3>
       </div>
       <div class="con h-[160px] w-full | flex items-center justify-center">
@@ -142,7 +142,7 @@
   
     <div class="socials rounded-md border border-gray-300  drop-shadow-md p-2  bg-white col-span-3 row-span-2 col-start-5 row-start-5">
       <div class="header flex gap-2 items-center">
-        <img :src="socials" alt="" class="h-4 mix-blend-multiply opacity-70">
+        <img :src="socials" alt="venar's socials icon" class="h-4 mix-blend-multiply opacity-70">
           <h3 class="text-[18px] ">Socials</h3>
       </div>
   
@@ -161,17 +161,17 @@
               <li class="cont1 h-15 w-15 bg-gray-100 p-2 rounded-md">
                 
                 <a href="https://github.com/vnrocnr">
-                   <img :src="github" alt="">
+                   <img :src="github" alt="github image">
                 </a>
               </li>
               <li class="cont1 h-15 w-15 bg-gray-100 p-2 flex items-center justify-center rounded-md">
                 <a href="https://www.linkedin.com/in/venarocenar/">
-                     <img :src="linkedln" alt="" class="h-10 w-10 bg-red-50">
+                     <img :src="linkedln" alt="linkedln image" class="h-10 w-10 bg-red-50">
                 </a>
               </li>
               <li class="cont1 h-15 w-15 bg-gray-100 p-2 rounded-md flex items-center justify-center">
                 <a href="">
-                   <img :src="insta" alt=""  class="h-10 w-10 bg-red-50">
+                   <img :src="insta" alt="instagram image"  class="h-10 w-10 bg-red-50">
                 </a>
               </li>
             </ul>

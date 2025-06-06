@@ -7,7 +7,7 @@
             <div class="reserve flex gap-2 items-center">
 
                 <img :src="at" alt="" class="h-3">
-                <p class="text-gray-500">2025 Venar. All rights reserved.</p>
+                <p class="text-gray-500">2025 Venar Ocenar. All rights reserved.</p>
             </div>
         </div>
         
