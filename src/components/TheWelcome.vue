@@ -54,6 +54,6 @@ import ribbon from '@/assets/ribbon.png'
 import call from '@/assets/call.svg'
 
 const resume = ref<String>(
-  'https://drive.google.com/file/d/1H8s6W67fI4g8d86fsWuI2lDWoHrvXxYg/view?usp=sharing',
+  'https://drive.google.com/file/d/16U6RIDFXZ-F2GRhKPN0bjuqvwk4NKsbl/view?usp=sharing',
 )
 </script>
