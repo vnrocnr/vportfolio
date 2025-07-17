@@ -50,8 +50,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import ribbon from '@/assets/ribbon.png'
-import call from '@/assets/call.svg'
+import ribbon from '@/assets/images/ribbon.png'
+import call from '@/assets/images/call.svg'
 
 const resume = ref<String>(
   'https://drive.google.com/file/d/16U6RIDFXZ-F2GRhKPN0bjuqvwk4NKsbl/view?usp=sharing',
