@@ -67,8 +67,8 @@
 
       <div class="links flex flex-col gap-5 dark:bg-black dark:text-white bg-white text-md">
         <router-link to="/" exact-active-class="active2" class="w-full rounded-md p-1" @click="handleClick">Home</router-link>
-        <router-link to="/projects" exact-active-class="active2" class="w-full rounded-md p-1" @click="handleClick">Projects</router-link>
-        <router-link to="/contact" exact-active-class="active2" class="w-full rounded-md p-1" @click="handleClick">Contact</router-link>
+        <!-- <router-link to="/projects" exact-active-class="active2" class="w-full rounded-md p-1" @click="handleClick">Projects</router-link>
+        <router-link to="/contact" exact-active-class="active2" class="w-full rounded-md p-1" @click="handleClick">Contact</router-link> -->
       </div>
 
       </div>
@@ -80,12 +80,12 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { router } from 'vue-router'
-// import DarkMode from '@/assets/images/capstone.png'
-// import Light from '@/assets/images/capstone.pnglightWH.svg'
-// import Logo from '@/assets/images/capstone.pngmylogobl.svg'
-// import logowh from '@/assets/images/capstone.pngmylogoblWH.png'
-// import Link from '@/assets/images/capstone.pngsolar_link-bold.svg'
-// import linkWH from '@/assets/images/capstone.pnglinkWH.svg'
+import DarkMode from '@/assets/images/dark_mode.svg'
+import Light from '@/assets/images/lightWH.svg'
+import Logo from '@/assets/images/mylogobl.svg'
+import logowh from '@/assets/images/mylogoblWH.png'
+import Link from '@/assets/images/solar_link-bold.svg'
+import linkWH from '@/assets/images/linkWH.svg'
 import { useTheme } from '@/stores/useTheme'
 import Socs from '@/components/Socials.vue'
 

@@ -7,18 +7,20 @@ import WelcomeItem from '@/components/WelcomeItem.vue';
 import AboutMe from '@/components/AboutMe.vue';
 import Services from '@/components/Services.vue';
 import Contact from '@/components/Contact.vue';
+import Updated from '@/views/Updated.vue';
 
 </script>
 
 <template>
   <main ref="main" class="bg-transparent  overflow-hidden">
     <div class="pad-containers justify-center">
-      <TheWelcome class="a overflow-hidden" />
-      <WelcomeItem class="b" />
+      <Updated/>
+      <!-- <TheWelcome class="a overflow-hidden" />
+      <WelcomeItem class="b" /> -->
     </div>
-    <AboutMe  />
+    <!-- <AboutMe  />
 
     <Services/>
-    <Contact/>
+    <Contact/> -->
   </main>
 </template>
