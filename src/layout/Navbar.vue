@@ -13,9 +13,9 @@
       <div class="links flex gap-5 dark:text-white">
         <router-link to="/" exact-active-class="active">Home</router-link>
         <!-- <router-link to="/about" exact-active-class="active">About</router-link> -->
-        <router-link to="/projects" exact-active-class="active">Projects</router-link>
+        <!-- <router-link to="/projects" exact-active-class="active">Projects</router-link> -->
         <!-- <router-link to="/setup" exact-active-class="active">Setup</router-link> -->
-        <router-link to="/contact" exact-active-class="active">Contact</router-link>
+        <!-- <router-link to="/contact" exact-active-class="active">Contact</router-link> -->
       </div>
 
       <div class="sm:visible extra-buttons flex gap-10 h-5">
