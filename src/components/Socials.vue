@@ -42,16 +42,16 @@
 <script setup lang="ts">
 import { useTheme } from '@/stores/useTheme'
 const { Dark } = useTheme()
-import linkedln from '@/assets/simple-line-icons_social-linkedin.svg'
-import linkedlinWH from '@/assets/linkedinWH.svg'
-import github from '@/assets/simple-line-icons_social-github.svg'
-import githubWH from '@/assets/githubWH.svg'
-import insta from '@/assets/simple-line-icons_social-instagram.svg'
-import instaWH from '@/assets/instagramWH.svg'
-import facebook from '@/assets/iconoir_facebook.svg'
-import facebookWH from '@/assets/iconoir_facebookWH.svg'
-import mail from '@/assets/si_mail-line.svg'
-import mailWH from '@/assets/si_mail-lineWH.svg'
+import linkedln from '@/assets/images/simple-line-icons_social-linkedin.svg'
+import linkedlinWH from '@/assets/images/linkedinWH.svg'
+import github from '@/assets/images/simple-line-icons_social-github.svg'
+import githubWH from '@/assets/images/githubWH.svg'
+import insta from '@/assets/images/simple-line-icons_social-instagram.svg'
+import instaWH from '@/assets/images/instagramWH.svg'
+import facebook from '@/assets/images/iconoir_facebook.svg'
+import facebookWH from '@/assets/images/iconoir_facebookWH.svg'
+import mail from '@/assets/images/si_mail-line.svg'
+import mailWH from '@/assets/images/si_mail-lineWH.svg'
 
 
 </script>

@@ -80,12 +80,12 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import { router } from 'vue-router'
-import DarkMode from '@/assets/dark_mode.svg'
-import Light from '@/assets/lightWH.svg'
-import Logo from '@/assets/mylogobl.svg'
-import logowh from '@/assets/mylogoblWH.png'
-import Link from '@/assets/solar_link-bold.svg'
-import linkWH from '@/assets/linkWH.svg'
+// import DarkMode from '@/assets/images/capstone.png'
+// import Light from '@/assets/images/capstone.pnglightWH.svg'
+// import Logo from '@/assets/images/capstone.pngmylogobl.svg'
+// import logowh from '@/assets/images/capstone.pngmylogoblWH.png'
+// import Link from '@/assets/images/capstone.pngsolar_link-bold.svg'
+// import linkWH from '@/assets/images/capstone.pnglinkWH.svg'
 import { useTheme } from '@/stores/useTheme'
 import Socs from '@/components/Socials.vue'
 

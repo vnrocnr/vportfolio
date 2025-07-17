@@ -34,10 +34,10 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import code from '@/assets/mdi_code.svg'
-import threed from '@/assets/cil_3d.svg' 
-import codeWH from '@/assets/mdi_codeWH.svg'
-import threedWH from '@/assets/cil_3dWH.svg'
+import code from '@/assets/images/mdi_code.svg'
+import threed from '@/assets/images/cil_3d.svg' 
+import codeWH from '@/assets/images/mdi_codeWH.svg'
+import threedWH from '@/assets/images/cil_3dWH.svg'
 
 import { useTheme } from '@/stores/useTheme'
 const {Dark} = useTheme()

@@ -96,7 +96,7 @@
 
 <script setup lang="ts">
 
-import artboard from '@/assets/Artboard.png'
-import asset from '@/assets/Asset.png'
-import caps from '@/assets/capstone.png'
+import artboard from '@/assets/images/Artboard.png'
+import asset from '@/assets/images/Asset.png'
+import caps from '@/assets/images/capstone.png'
 </script>

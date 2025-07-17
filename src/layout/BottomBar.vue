@@ -15,13 +15,13 @@
 </template>
 
 <script setup>
-import codeline from '@/assets/mingcute_code-line.svg'
-import at from '@/assets/weui_at-outlined.svg'
-import facebook from '@/assets/ic_baseline-facebook.svg'
-import linkedln from '@/assets/ion_social-linkedin.svg'
-import github from '@/assets/Vector.svg'
-import email from '@/assets/iconamoon_email-light.svg'
-import location from '@/assets/mdi_location.svg'
+import codeline from '@/assets/images/mingcute_code-line.svg'
+import at from '@/assets/images/weui_at-outlined.svg'
+import facebook from '@/assets/images/ic_baseline-facebook.svg'
+import linkedln from '@/assets/images/ion_social-linkedin.svg'
+import github from '@/assets/images/Vector.svg'
+import email from '@/assets/images/iconamoon_email-light.svg'
+import location from '@/assets/images/mdi_location.svg'
 </script>
 
 <style scoped>
